@@ -1,0 +1,34 @@
+CBMappers - a collection of programs to extract PNG images from the game files
+created by the citybuilding games Caesar 3, Pharaoh, and Zeus
+-------------------------------------------------------------------------------
+
+============
+Requirements
+------------
+
+The programs require libpng and libz to be installed.
+
+===========
+Compilation
+-----------
+To compile these programs, simply type:
+
+make
+
+This will build three command-line programs, one for each of the supported
+games:
+
+  * c3mapper
+  * pharaohmapper
+  * zeusmapper
+
+After compilation, you can move these programs to wherever you please.
+
+================
+Bug reports, etc
+----------------
+See the AUTHORS file for contact information. 
+
+For more information, please visit:
+
+http://www.heavengames.com/angels/pecunia/citybuilding/
