@@ -9,8 +9,11 @@ wget -q -O /tmp/libpng12.deb http://mirrors.kernel.org/ubuntu/pool/main/libp/lib
 ```
 
 Usage :
+Put .map, .pak and .sav files in input folder.
 ```
+devilbox@php-7.4.20 in /shared/httpd $ cd convert-map-to-png
 devilbox@php-7.4.20 in /shared/httpd/convert-map-to-png $ php index.php
 ```
+The png should be in output folder.
 
 

@@ -20,7 +20,7 @@ function convertMapsToPngs($extractPath, $destinationPath)
                 $pngPath = $destinationPath . '/' . $baseName . '.png';
 
                 // Convert file to png :
-                $execReturn = exec(__DIR__ . '/cbmappers/zeusmapper ' . $file->getPathName() . ' ' . $pngPath);
+                $execReturn = exec(__DIR__ . '/cbmappers/zeusmapper "' . $file->getPathName() . '" "' . $pngPath . '"');
             }
         }
     }
